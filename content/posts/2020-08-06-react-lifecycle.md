@@ -10,8 +10,8 @@ tags:
   - "Web Development"
   - "Frontend"
 description: Understand different phases of React lifecycle and component methods with examples explained.
-prev: "/blog/css-draw-different-shape-with-css"
-next: "/blog/javascript-prototype"
+prev: "/blog/javascript-prototype"
+next: "/blog/javascript-event-loop"
 popularity: 5
 ---
 ![React lifecycle](media-link/react-lifecycle/react-lifecycle.png)

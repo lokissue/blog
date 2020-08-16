@@ -10,7 +10,7 @@ tags:
   - "Web development"
 description: A beginner-friendly introduction on Javascript prototype, prototype-chain & inheritance.
 prev: "/blog/css-draw-different-shape-with-css"
-next: "/blog/react-lifecycle"
+next: "/blog/javascript-event-loop"
 popularity: 4
 ---
 <p align="center">

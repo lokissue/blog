@@ -8,6 +8,7 @@ I studied Computer Science at University of Melbourne. During my study career, I
 
 The raod to become a frontend developer is never straight, I decided to start my programming blog. Sharing pushes me to learn more about modern frontend developing techniques.
 
+My frist [portfolio website](https://lokissue.github.io/Portfolio_website/).
 
 You can see more of my projects on my [Github](https://github.com/lokissue).
 

@@ -9,6 +9,7 @@ tags:
   - "CSS"
   - "Web Development"
   - "Frontend"
+description: A good practice for CSS beginner to play around. You can find the editable code via the links to my CodePen.
 prev: "/blog/javascript-prototype"
 next: "/blog/react-lifecycle"
 popularity: 3

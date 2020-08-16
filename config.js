@@ -4,9 +4,9 @@ module.exports = {
   url: 'https://google.com',
   title: 'Blog by Luoming Zhang',
   subtitle:
-    "CS @ Unimelb. I blog about frontend development and more topics.",
+    "19 CS @ Unimelb. I blog about frontend development and more topics.",
   copyright: '© Luoming Zhang 2020',
-  postsPerPage: 4,
+  postsPerPage: 3,
   googleAnalyticsId: '/',
   menu: [
     {
