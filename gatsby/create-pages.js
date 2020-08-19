@@ -14,7 +14,7 @@ const createPages = async ({ graphql, actions }) => {
     toPath: '/',
     redirectInBrowser: true,
     isPermanent: true,
-  })
+  });
 
   // Tags list
   createPage({
@@ -59,7 +59,7 @@ const createPages = async ({ graphql, actions }) => {
     createPage({
       path: slug,
       component: path.resolve(`./src/templates/${template}-template.js`),
-      context: { slug, prev, next},
+      context: { slug, prev, next },
     });
   });
 
