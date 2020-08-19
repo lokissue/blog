@@ -212,7 +212,6 @@ const tagDescriptions = {
   ),
 };
 
-
 const TagTemplate = ({ data, pageContext, location }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = data.site.siteMetadata;
 

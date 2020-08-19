@@ -9,9 +9,6 @@ import NavHeader from '../components/NavHeader';
 import Post from '../components/Post';
 import TemplateWrapper from '../components/TemplateWrapper';
 
-
-// const ShareIcons = loadable(() => import('../components/ShareIcons'));
-
 type Props = {|
   +data: Object,
   +pageContext: Object,
@@ -48,7 +45,6 @@ const PostTemplate = ({ data, pageContext }: Props) => {
       window.removeEventListener('scroll', listener);
     };
   }, [hasScrolled, setHasScrolled]);
-
 
   return (
     <TemplateWrapper>
@@ -101,6 +97,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
         <>
           {/* <ShareIcons url={slug} title={postTitle} /> */}
           <FixedScrollContainer>
+            <div/>
           </FixedScrollContainer>
         </>
       )}
