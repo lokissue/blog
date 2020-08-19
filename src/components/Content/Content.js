@@ -1,5 +1,4 @@
 // @flow
-import loadable from '@loadable/component';
 import { graphql } from 'gatsby';
 import * as React from 'react';
 import rehypeReact from 'rehype-react';

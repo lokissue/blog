@@ -28,7 +28,7 @@ type Props = {|
 
 const ReadMoreLink = ({
   post: {
-    fields: { dateFormatted},
+    fields: { dateFormatted },
     frontmatter: { description, img, slug, title },
   },
 }: LinkProps) => (

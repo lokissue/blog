@@ -8,7 +8,7 @@ type Props = {|
   +dateFormatted: string,
 |};
 
-const ContentDate = ({ dateFormatted}: Props) => (
+const ContentDate = ({ dateFormatted }: Props) => (
   <p className={styles['content-date']}>
     <time>{dateFormatted}</time>
     )}

@@ -32,8 +32,8 @@ const PostTemplate = ({ data, pageContext }: Props) => {
     title: postTitle,
     description,
   } = slugNode.frontmatter;
-  
-  let wordCount = slugNode.fields.readingTime.words;
+
+  const wordCount = slugNode.fields.readingTime.words;
 
   const [hasScrolled, setHasScrolled] = useState(false);
 

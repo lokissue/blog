@@ -36,7 +36,7 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
     title,
     description,
   } = post.frontmatter;
-  const { dateFormatted} = post.fields;
+  const { dateFormatted } = post.fields;
 
   const { htmlAst } = post;
 

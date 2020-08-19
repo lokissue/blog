@@ -7,11 +7,11 @@ const createPostsPages = require('./pagination/create-posts-pages.js');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const { createRedirect } = actions
+  const { createRedirect } = actions;
 
   createRedirect({
-    fromPath: `/blog`,
-    toPath: `/`,
+    fromPath: '/blog',
+    toPath: '/',
     redirectInBrowser: true,
     isPermanent: true,
   })
@@ -51,11 +51,11 @@ const createPages = async ({ graphql, actions }) => {
   const { edges } = result.data.allMarkdownRemark;
 
   _.each(edges, edge => {
-
     const { slug } = edge.node.fields;
     const prev = _.get(edge, 'node.frontmatter.prev');
     const next = _.get(edge, 'node.frontmatter.next');
-    let template = _.get(edge, 'node.frontmatter.template');
+    const template = _.get(edge, 'node.frontmatter.template');
+
     createPage({
       path: slug,
       component: path.resolve(`./src/templates/${template}-template.js`),
@@ -66,7 +66,6 @@ const createPages = async ({ graphql, actions }) => {
   // Feeds
   await createTagsPages(graphql, actions);
   await createPostsPages(graphql, actions);
-
 };
 
 module.exports = createPages;

@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://google.com',
   title: 'Blog by Luoming Zhang',
   subtitle:
-    "19 CS @ Unimelb. I blog about frontend development and more topics.",
+    '19 CS @ Unimelb. I blog about frontend development and more topics.',
   copyright: '© Luoming Zhang 2020',
   postsPerPage: 3,
   googleAnalyticsId: '/',
@@ -27,7 +27,7 @@ module.exports = {
     photo: '/photo.JPG',
     photoLarge: '/photo.JPG',
     bio:
-      "CS @ Unimelb. I blog about frontend development and more topics.",
+      'CS @ Unimelb. I blog about frontend development and more topics.',
     contacts: {
       email: 'lokissue@gmail.com',
       github: 'lokissue',
