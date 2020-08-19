@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Author renders correctly 1`] = `
+<div
+  className="author"
+>
+  <div
+    className="author__main-section"
+  >
+    <Link
+      to="/"
+    >
+      <img
+        alt="test"
+        className="author__photo"
+        src="/photo2.png"
+      />
+    </Link>
+    <h2
+      className="author__title"
+    >
+      <Link
+        className="author__title-link"
+        to="/"
+      >
+        test
+      </Link>
+       
+    </h2>
+  </div>
+  <p
+    className="author__subtitle"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "test",
+      }
+    }
+  />
+</div>
+`;
