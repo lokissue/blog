@@ -1,11 +1,26 @@
 # luomingzhang.com 🧑‍💻
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a999fc32-0cf6-4f0e-a52f-400cef44a989/deploy-status)](https://app.netlify.com/sites/luomingzhang/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a999fc32-0cf6-4f0e-a52f-400cef44a989/deploy-status)](https://app.netlify.com/sites/luomingzhang/deploys) | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Live version: [luomingzhang.com](luomingzhang.com) 
 
 ### Motivation
 This blog is a place for me to share some experience on developing my frontend development skills. I blog about the knowledge is essential for frontend development, e.g. [React](https://reactjs.org/), [JavaScript](www.javascript.com
 ), HTML/CSS and more topics.
+
+### To-do list
+
+⭕️ Javascript post: promise
+
+⭕️ CSS post: web design layout
+
+✅ React post: event loop
+
+✅ React post: lifecycle
+
+✅ CSS post: draw shapes with CSS
+
+✅ Javascript post: Prototype, prototype chain & inheritance
+
 
 ### To get started:
 
