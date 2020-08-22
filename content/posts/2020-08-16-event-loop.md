@@ -3,7 +3,7 @@ title: "JavaScript is fun: Event Loop"
 date: "2020-08-16T10:00:00.000Z"
 template: post
 slug: "/blog/javascript-event-loop"
-img: "https://previews.dropbox.com/p/thumb/AA5GuhEQ958sl6dtmsl7y7yK9DXiOWYinA1kEuWEw_RJY9VoH-tS8Vef4hCXhmfHcIu5PMrYHhqqaOjlkjsS8TWJwo4hWGSGj4aZXGLzQE8kApfsIDqhN1him5pyyvIKPgf5Tg6_JmCPKROmd02CzxAAg9sqogMpfTo20bfOcVSpT66baNm_ckAev4R1YcztUqsT2Qn3lHoiIdG3NGjzlV8fQjpXXipG31q5MCmAlEQnHOn0DyOfpNgWFxAliFPwxmQrtbYutHm7vN5KPcRnfCfS_0tLlDmwjybA2XLA77evX5N6pTYQoeIQ-Q20GEmp3D2xr_j7RkfZRyfcFZhqxN8aLpspcU1pztsdqlGRPlpMxbfmknTowZMmadbyOeTLt-M/p.jpeg?fv_content=true&size_mode=5"
+img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/react-post/react-logo.png?raw=true"
 category: "Javascript"
 tags:
   - "Javascript"

@@ -3,7 +3,7 @@ title: "CSS playground: Draw Different Shapes with CSS"
 date: "2020-08-04T10:00:00.000Z"
 template: post
 slug: "/blog/css-draw-different-shape-with-css"
-img: "https://previews.dropbox.com/p/thumb/AA55kzunbmQkWch2DievlqQYbp9aJySaA7z6uVI1WtBdZCJTTVJXH1S472cZPEv8Opy1Gn-s6cii9soyYdI23uV-D65ZWcyKJ82cOgiO-D3tDlPU3koHGAlS_8pROfvbGNB7Esal9KOR7yy2RTd6idHwIkd62thLG1NME0XXR1TRR2q_UuUVE2d-BRg9Mwo4vXuv6hPj5FdMTwRhrdRJy74KTCG7vuZECcH5M9K9X5AIithU23pArpwrQpnbsZEJ48NYHNGb5fZ_y8MEdzz0NvcFb2CzZPDuo6aYKXDvIjabO6q8FnbBu3yGN6TkWCZDLiaiXN1kWmHdbZVpxyei8MdxJXWJWLR9qfNUX0HSd4IFsA/p.png?fv_content=true&size_mode=5"
+img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/css-post/css.png?raw=true"
 category: "CSS"
 tags:
   - "CSS"

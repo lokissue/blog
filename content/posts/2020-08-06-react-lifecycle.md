@@ -3,7 +3,7 @@ title: "React [w]orkshop: React Component Lifecycle with Examples"
 date: "2020-08-08T10:00:00.000Z"
 template: post
 slug: "/blog/react-lifecycle"
-img: "https://previews.dropbox.com/p/thumb/AA5en2kuXyNy08d6FR82TkQfCwsiH-GqusFV6tVFIKeheBWAxJllLSEbtxb4g-lg4XHyLIpU4S2oiIMfoVgkhIfpGtZgFfAvhuj0sPbwWOLTChzaSWHLnCdquAaNRWcyMBwuL-Ve5_dDZ-2RuXIxCwhY7x4WRYVbxmJkjhXikzMWndrLavBI-MSjWgNXN3lTP1mXFc2Lrk5aEclU6gLf-c-QupeQYMDA9CziasqFINgndIrLQCIwWbnCazzHz4G3dqg899U7_qN9p4u6VjG5QJn_TBUrVmLfOG_qisnT3Qeu2OawUVsGBIG41TyEpBAApLaKs8cHlirGI48ZITSB3AeoEx7F9V-AKn3ZdAFUIIQWVg/p.png?size=2048x1536&size_mode=3"
+img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/react-post/react-logo.png?raw=true"
 category: "React"
 tags:
   - "React"
