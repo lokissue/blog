@@ -17,7 +17,7 @@ popularity: 4
 <img src="./media-link/javascript-post/javascript.jpeg" width="400">
 </p>
 
----
+<div style="height:1px;overflow:hidden;background:grey"></div>
 <h3><strong>Table of Content</strong></h3>
 
 - [Prototype-based Language](#prototype-based-language)
@@ -29,7 +29,7 @@ popularity: 4
   - [ES6 Class extends](#es6-class-extends)
 - [Summary](#summary)
 
----
+<div style="height:1px;overflow:hidden;background:grey"></div>
 
 ### Prototype-based Language
 

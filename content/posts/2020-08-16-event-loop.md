@@ -16,7 +16,9 @@ popularity: 4
 
 ![Loop](media-link/event-loop/loop.gif)
 
----
+
+<div style="height:1px;overflow:hidden;background:grey"></div>
+
 <h3><strong>Table of Content</strong></h3>
 
 - [Javascript is a Single-Threaded Languange](#javascript-is-a-single-threaded-languange)
@@ -31,18 +33,18 @@ popularity: 4
 - [How does Event Loop works?](#how-does-event-loop-works)
 - [Summary](#summary)
   
----
+<div style="height:1px;overflow:hidden;background:grey"></div>
 
-### Javascript is a Single-Threaded Languange
+## Javascript is a Single-Threaded Languange
 
 First, let's cover the concepts of *process* and *thread*.
 
-#### Process
+### Process
 
 A *process* is executing a program. One or more threads run in the context of the process.
 
 
-#### Thread
+### Thread
 A *thread* is the basic unit to which the operating sysem allocates processor time. A thread can execute any part of the process code.
 
 * **Single-threaded** processes contain the execution of instructions in a single sequence. In other words, one command is processes at a time.
@@ -50,7 +52,7 @@ A *thread* is the basic unit to which the operating sysem allocates processor ti
   
 ![Process and Thread](media-link/event-loop/process-thread.jpg)
 
-#### Why Javascript is Single-Threaded?
+### Why Javascript is Single-Threaded?
 
 Javascript is designed as single-threaded because it is a browser scripting language. The main function of Javascript is to interact with user and access the DOM.
 
@@ -60,15 +62,15 @@ To reduce the complexity, JavaScript is single-threaded since the day it born. T
 
 How does JavaScript handle jobs at the same time?
 
-### Basic Architecture
+## Basic Architecture
 
 Javascript with V8 engine has two parts:
 
-#### Heap (Memory Heap)
+### Heap (Memory Heap)
 
 Objects are allocated in a heap which is just a name to denote a large mostly unstructured region of memory
 
-#### Stack (Call Stack)
+### Stack (Call Stack)
 
 The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack. (Last in, first out)
 
@@ -87,11 +89,11 @@ The call stake will handle the code snippet as below:
 
 The call stack job is to fill in the instructions and pop an instruction as it gets executed (LIFO).
 
-#### Event Loop
+### Event Loop
 
 This is where alll these things come together. The event loop simply checks the call stack, and if it is empty (which means there are no functions or task in the stack) it takes the oldest callback from the callback queue and pushes it into the call stack which eventually executes the callback.
 
-#### Task Queue
+### Task Queue
 
 Events, timers, Ajax requests are all provided on the client-side by the browsers and are often referred to as Web API. Once the Web API finishes executing the task, it doesn't just push it back to the *Call Stack* automatically. It goes to the **Task Queue**
 
@@ -101,7 +103,7 @@ Here's how a Event Loop looks like:
 
 Still confusing? Let me explain with example.
 
-### How does Event Loop works?
+## How does Event Loop works?
 
 Javascript wraps "blocking functions" in *callback* which can be executed later, so they won't be blocing other activities.
 
@@ -138,6 +140,6 @@ If the call stack is not empty, the event llop waits until it is empty and place
 ![Event Loop step 3](media-link/event-loop/javascript-event-loop-step-3.png)
 
 
-### Summary
+## Summary
 
 While this is a very basic introduction, the concept of asynchronous programming in Javascript gives enough insight to clearly understand what is going on under the hood and how Javascript is able to run concurrently and asynchronously with just a single thread.

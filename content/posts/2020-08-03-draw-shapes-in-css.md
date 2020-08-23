@@ -18,9 +18,10 @@ popularity: 3
 <img src="media-link/draw-shapes-with-css/CSS-shapes.png" width="600">
 </p>
 
----
+<div style="height:1px;overflow:hidden;background:grey"></div>
 
 <h3><strong>Table of Content</strong></h3>
+
 
 - [Square & Retangle](#square--retangle)
 - [Triangles](#triangles)
@@ -36,7 +37,7 @@ popularity: 3
 - [Cone](#cone)
 - [Summary](#summary)
 
----
+<div style="height:1px;overflow:hidden;background:grey"></div>
 
 ### Square & Retangle
 
