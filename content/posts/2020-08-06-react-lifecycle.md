@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/reac
 category: "React"
 tags:
   - "React"
-  - "Web Development"
+  - "Web technology"
   - "Frontend"
 description: Understand different phases of React lifecycle and component methods with examples explained.
 prev: "/blog/javascript-prototype"

@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/css-
 category: "CSS"
 tags:
   - "CSS"
-  - "Web Development"
+  - "Web Technology"
   - "Frontend"
 description: A good practice for CSS beginner to play around. You can find the editable code via the links to my CodePen.
 prev: "/blog/javascript-prototype"

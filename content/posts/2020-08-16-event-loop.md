@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/reac
 category: "Javascript"
 tags:
   - "Javascript"
-  - "Web development"
+  - "Web technology"
 description: This blog focuses on one of the very important but seldom understood concepts or terms in Javascript. The EVENT LOOP!
 prev: "/blog/react-lifecycle"
 next: "/blog/javascript-prototype"
