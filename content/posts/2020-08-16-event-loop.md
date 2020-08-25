@@ -3,11 +3,11 @@ title: "JavaScript is fun: Event Loop"
 date: "2020-08-16T10:00:00.000Z"
 template: post
 slug: "/blog/javascript-event-loop"
-img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/react-post/react-logo.png?raw=true"
+img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/javascript-post/javascript.jpeg?raw=true"
 category: "Javascript"
 tags:
   - "Javascript"
-  - "Web technology"
+  - "Web Technology"
 description: This blog focuses on one of the very important but seldom understood concepts or terms in Javascript. The EVENT LOOP!
 prev: "/blog/react-lifecycle"
 next: "/blog/javascript-prototype"

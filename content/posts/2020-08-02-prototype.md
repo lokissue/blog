@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/java
 category: "Javascript"
 tags:
   - "Javascript"
-  - "Web technology"
+  - "Web Technology"
 description: A beginner-friendly introduction on Javascript prototype, prototype-chain & inheritance.
 prev: "/blog/css-draw-different-shape-with-css"
 next: "/blog/javascript-event-loop"
