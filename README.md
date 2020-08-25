@@ -16,13 +16,15 @@ This blog is a place for me to share some experience on developing my frontend d
 
 ⭕️ CSS post: web design layout
 
-✅ React post: event loop
+✅ React post: useContext + useReducer = Redux
 
-✅ React post: lifecycle
+✅ [React post: event loop](https://luomingzhang.com/blog/javascript-event-loop)
 
-✅ CSS post: draw shapes with CSS
+✅ [React post: lifecycle](https://luomingzhang.com/media-link/react-lifecycle)
 
-✅ Javascript post: Prototype, prototype chain & inheritance
+✅ [CSS post: draw shapes with CSS](https://luomingzhang.com/blog/css-draw-different-shape-with-css)
+
+✅ [Javascript post: Prototype, prototype chain & inheritance](https://luomingzhang.com/blog/javascript-prototype)
 
 
 ## 🛠 Installation  & Set Up:
