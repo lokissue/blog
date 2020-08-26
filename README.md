@@ -16,7 +16,7 @@ This blog is a place for me to share some experience on developing my frontend d
 
 ⭕️ CSS post: web design layout
 
-✅ React post: useContext + useReducer = Redux
+✅ [React post: useContext + useReducer = Redux](https://luomingzhang.com/blog/usecontext-and-usereducer)
 
 ✅ [React post: event loop](https://luomingzhang.com/blog/javascript-event-loop)
 
@@ -67,9 +67,9 @@ gatsby build
 npm run serve
 ```
 
-## Credit
+## 💳 Credit
 
 This is a site built with [Gatsby.js](https://www.gatsbyjs.org/) using [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen). 
 
-## License
+## 📖 License
 The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
