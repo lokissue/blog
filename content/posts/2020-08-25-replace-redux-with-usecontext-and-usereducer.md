@@ -62,7 +62,7 @@ To begin with, use `create-react-app` to create a project, you can also create a
 
 ### Create a message component.
 
-```
+```js
 // message.js
 import React from 'react'
 
@@ -77,7 +77,7 @@ const Message = (props) => {
 
 ### Create a buttons component
 
-```
+```js
 // buttons.js
 import React from "react";
 
@@ -95,7 +95,7 @@ export default Buttons;
 
 ### Import Message and Buttons to App.js
 
-```
+```js
 // App.js
 import React from "react";
 import Message from "./message";
@@ -120,7 +120,7 @@ export default App;
 
 Apparently, Message component needs a color state, so we create `color.js` to manage this state.
 
-```
+```js
 // color.js
 import React, { createContext } from "react";
 
@@ -144,7 +144,7 @@ export const Color = props => {
 
 Modify `App.js`, all children can access the color.
 
-```
+```js
 // App.js
 ···
 ···
@@ -170,7 +170,7 @@ function App() {
 
 Retrive color state in message component.
 
-```
+```js
 // message.js
 ···
 ···
@@ -194,7 +194,7 @@ const Message = props => {
 
 Then add reducer in `color.js` to manage the logic of color update.
 
-```
+```js
 // color.js
 import React, { createContext, useReducer } from "react";
 
@@ -232,7 +232,7 @@ export default Color;
 
 Add `onClick` event in button, call `dispatch` to update color.
 
-```
+```js
 //button.js
 import React, { useContext } from "react";
 import { ColorContext, UPDATE_COLOR } from "./color";

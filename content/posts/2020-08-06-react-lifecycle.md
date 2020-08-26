@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/reac
 category: "React"
 tags:
   - "React"
-  - "Web Technology"
+  - "Web Development"
   - "Frontend"
 description: Understand different phases of React lifecycle and component methods with examples explained.
 prev: "/blog/javascript-event-loop" 
@@ -43,7 +43,7 @@ Every component has a lifecycle of its own. How it will be rendered. Basically, 
 This is the very first life-cycle of the component that is being invoked as soon as the component is called.
 
 We can create our App like:
-```
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -68,7 +68,7 @@ After testing, you will find a page is successfully rendered and print `App crea
 Let's add a new class `Title`, hide it away before we click a buttom to show it. We put `console.log` in constructor function by checking if class `Title`'s constorcutor is called when we click a buttom.
 
 [CodeSandbox](https://codesandbox.io/s/constructor-test-o4n9z?file=/src/App.js)
-```
+```js
 import React, { Component } from 'react';
 
 class Title extends Component {
@@ -123,7 +123,7 @@ After being constructed, the render life-cycle is called which can be considered
 
 An example of render lifecycle can be the following:
 
-```
+```js
 render() {
     return (
         <p>Hellow world</p>
@@ -135,7 +135,7 @@ render() {
 
 Let's build a simple App to understand how it works.
 
-```
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -182,8 +182,8 @@ shouldComponentUpdate(nextProps, nextState){
 The `render()` function will not be invoked if `shouldComponentUpdate()` returns `false`
 
 Let's try to skip rendering on 3.
-```
-shouldComponentUpdate(nextProps, nextState) 
+```js
+shouldComponentUpdate(nextProps, nextState) {
  console.log(nextState)
   if (nextState.number === 3) {
     return false;
@@ -200,7 +200,7 @@ The proper use of `shouldComponentUpdate()` can eliminate some unnecessary rende
 
 The use case can be the following: 
 [CodeSandbox](https://codesandbox.io/s/shouldcomonentupdate-example-w7otl)
-```
+```js
 import React, { Component } from 'react';
 class Title extends Component {
   // stop re-render if the props stay the same.
@@ -247,7 +247,7 @@ What is the meaning of **DidMount**?
 `componentDidMount()` is invoked immediately after a component is **mounted** (inserted into the DOM tree).
 
 Let's test `componentDidMount()` is invoked after a component is inserted into the tree.
-```
+```js
 import React, { Component } from 'react';
 class Title extends Component {
   render() {
@@ -289,7 +289,8 @@ We can get the result from the console.
 This method is a good place to set up any subscription. For example, you may call setState() immediately in componentDidMount(). It will trigger an extra rendering, but it will happen before the browser updates the screen.
 
 Let's try another example: [CodeSandbox](https://codesandbox.io/s/componentdidmount-example-xe2fy?file=/src/App.js)
-```
+
+```js
 import React, { Component } from 'react';
 class Title extends Component {
   constructor(props) {
@@ -354,7 +355,7 @@ In this case, we need the function below to solve this problem.
 **DidMount** means the component is mounted, therefore, *WillUnmount* means this function is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method.
 
 Modify the example above: [CodeSandbox](https://codesandbox.io/s/componentwillunmount-example-36031?file=/src/App.js:0-911)
-```
+```js
 import React, { Component } from 'react';
 class Title extends Component {
   constructor(props) {
@@ -411,7 +412,7 @@ We can tell that `componentWillUnmount()` is invoked before the `title` componen
 
 Look at the example that runs without `componentDidUpdate`
 
-```
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -489,7 +490,7 @@ Because `.setState()` is **asynchronous**， `log()` print out the result before
 
 That is why the second parameter of `setState()` is a callback function, we can put print action in the second parameter.
 
-```
+```js
 addOrange() {
   this.setState({
     orange: this.state.orange + 1
@@ -501,7 +502,7 @@ However, whenever we add a new furit type, we need to add another linstener, cre
 
 `componentWillUpdate` can sort this out easily. You can change data on basis of props changes by comparing `this.props` and `prevProps`
 
-```
+```js
 componentDidUpdate(prevProps, prevState) {
   if (prevProps.apple !== this.state.apple
     || prevProps.orange !== this.state.orange
@@ -514,7 +515,7 @@ componentDidUpdate(prevProps, prevState) {
 
 Here's the full version of the code: [CodeSandbox](https://codesandbox.io/s/componentdidupdate-example-5w1vy)
 
-```
+```js
 import React, { Component } from "react";
 
 class App extends Component {

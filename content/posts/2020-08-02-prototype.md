@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/java
 category: "Javascript"
 tags:
   - "Javascript"
-  - "Web Technology"
+  - "Web Development"
 description: A beginner-friendly introduction on Javascript prototype, prototype-chain & inheritance.
 prev: "/blog/css-draw-different-shape-with-css"
 next: "/blog/javascript-event-loop"
@@ -50,7 +50,7 @@ In other words, **prototypal inheritance** is a form of object0oriented **code r
 4. `__proto__` of an object is the value of the `prototype` property of the constructor function from which that object is created.
 
     Let's see an example with the code for a better visualizaion:
-    ```
+    ```js
     function Person(name) {
         name: this.name
     }
@@ -60,7 +60,7 @@ In other words, **prototypal inheritance** is a form of object0oriented **code r
     ```
 
  5. In an object, if that property is pointing to an object then the engin will treat this object's properties as if they were on the instance itself. In other words, every object can link to another object via `__proto__` property and access it's properties like they were it's own.
-    ```
+    ```js
     function Person(name) {
         name: this.name
     }
@@ -75,7 +75,7 @@ In other words, **prototypal inheritance** is a form of object0oriented **code r
     \* Object `boy` doesn't have method `sayHi()`, so the engine will search method `sayHi()` in its `__proto__`, that is `Person.prototype` (remember `boy.__proto__ === Person.prototype`).
 
 6. A property value or method is searched in a current object first. If it's not found, the search continue in the **prototype chain* until the property is found or *prototype chain* ends.
-    ```
+    ```js
     var obj1 = {a: 1};
     var obj2 = Object.create(obj1);
     obj2.hasOwnProperty('a'); // false
@@ -93,7 +93,7 @@ As memetioned above, the sequence of objects traversed in the object manner form
 ![prototype chain](./media-link/prototype/prototype_chain.jpg)
 
 Prototype chain terminates with `null`
-```
+```js
 var obj = {};
 obj.__proto__.__proto___ // null
 ```
@@ -101,7 +101,7 @@ obj.__proto__.__proto___ // null
 ### Inheritance
 
 #### Constructor-Based Inheritance
-```
+```js
 function Parent ( name ) {
     this.name = name
     this.friends = ["Shannon", "Jeremy"]
@@ -131,7 +131,7 @@ Using constructor functions with the `new` keyword is a handy way to create obje
 
 #### Prototypal Inheritance
 
-```
+```js
 function Parent (name) {
     this.name = name
 }
@@ -169,7 +169,7 @@ ES6 actually introduced an easier syntax for constructor functions and working w
 
 Classes are only *syntactical sugar` for constructor functions. Everything still works the same way. 
 
-```
+```js
 class Car {
     constructor(brand) {
       this.carname = brand;

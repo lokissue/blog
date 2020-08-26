@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/java
 category: "Javascript"
 tags:
   - "Javascript"
-  - "Web Technology"
+  - "Web Development"
 description: This blog focuses on one of the very important but seldom understood concepts or terms in Javascript. The EVENT LOOP!
 prev: "/blog/react-lifecycle"
 next: "/blog/javascript-prototype"
@@ -74,7 +74,7 @@ Objects are allocated in a heap which is just a name to denote a large mostly un
 
 The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack. (Last in, first out)
 
-```
+```js
 const one() => {
     const two() => {
         console.log('4');
@@ -107,7 +107,7 @@ Still confusing? Let me explain with example.
 
 Javascript wraps "blocking functions" in *callback* which can be executed later, so they won't be blocing other activities.
 
-```
+```js
 console.log('Start script...');
 
 setTimeout(() => {

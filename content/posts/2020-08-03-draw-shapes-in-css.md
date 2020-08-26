@@ -7,7 +7,7 @@ img: "https://github.com/lokissue/luomingzhang.com/blob/master/static/media/css-
 category: "CSS"
 tags:
   - "CSS"
-  - "Web Technology"
+  - "Web Development"
   - "Frontend"
 description: A good practice for CSS beginner to play around. You can find the editable code via the links to my CodePen.
 prev: "/blog/javascript-prototype"
@@ -47,7 +47,7 @@ Square and Retangle are the easies shape you can draw with CSS, as they are the 
 
 <img src="./media-link/draw-shapes-with-css/square.png" alt="square" width="200" height="200">
 
-```
+```css
 .square {
   width: 200px;
   height: 200px;
@@ -59,7 +59,7 @@ Square and Retangle are the easies shape you can draw with CSS, as they are the 
 
 <img src="./media-link/draw-shapes-with-css/retangle.png" alt="retangle" width="200" height="100">
 
-```
+```css
 .retangle {
   width: 200px;
   height: 100px;
@@ -77,7 +77,7 @@ Before drawing the triangle, let's take a look at the property of `border` in th
 
 <img src="./media-link/draw-shapes-with-css/content-border.png" alt="content-border" width="200" height="200">
 
-```
+```css
 .box {
   width: 200px;
   height: 200px;
@@ -106,7 +106,7 @@ Let remove the content box(blue area) and increase all border widths.
 
 <img src="./media-link/draw-shapes-with-css/border-box.png" alt="border-box" width="200" height="200">
 
-```
+```css
 .box {
   width: 0;
   height: 0;
@@ -124,7 +124,7 @@ Just set the other border colours transparent:
 
 <img src="./media-link/draw-shapes-with-css/triangle.png" alt="border-box" width="200" height="100">
 
-```
+```css
 .box {
   width: 0;
   height: 0;
@@ -142,7 +142,7 @@ We can "rotate" triangle by setting which border is non-transparent.
 
 ![four-triangles](media-link/draw-shapes-with-css/four-triangles.png)
 
-```
+```css
 .triangle1 {
   width: 0;
   height: 0;
@@ -191,7 +191,7 @@ What happen if we add `width` value for the border-only box above?
 
 <img src="./media-link/draw-shapes-with-css/border-box-width.png" alt="border-box" width="350" height="200">
 
-```
+```css
 .box{
   width: 150px;
   height: 0px;
@@ -206,7 +206,7 @@ Awesome, we got 4 trapezoids! Like the triangles, we cang get a single trapezoid
 
 <img src="./media-link/draw-shapes-with-css/trapezoid.png" alt="border-box" width="350" height="100">
 
-```
+```css
 .trapezoid{
   width: 150px;
   height: 0px;
@@ -226,7 +226,7 @@ Before we jump to circle, let's see first how `border-radius` works?
 
 Like many CSS properties relating to margins, padding and borders, there are four individual properties - one for each corner of a box element - and one shorthand property.
 
-```
+```css
 border-to-right-radius
 border-bottom-right-radius
 border-bottom-left-radius
@@ -236,7 +236,7 @@ border-radius
 
 The `border-radius` properties can each accept either one or two values, expressed as a length or a percentage (percentages refer to the corresponding dimensions of the border box).
 
-```
+```css
 border-*-radius: [ <length> | <%> ] [ <length> | <%> ]?
 ```
 
@@ -249,7 +249,7 @@ The following diagram gives a few examples of how corners might appear given dif
 
  <img src="./media-link/draw-shapes-with-css/border-radius-50.png" alt="border-radius-50" width="200" height="200">
  
- ```
+ ```css
 .circle {
   width: 200px;
   height: 200px;
@@ -264,7 +264,7 @@ Circle is generated from square, oval is generated from retangle.
 
  <img src="./media-link/draw-shapes-with-css/oval.png" alt="oval" width="200" height="100">
 
-```
+```css
 .oval {
   width: 200px;
   height: 100px;
@@ -279,7 +279,7 @@ Drawing a quadrant is easy if you learned how to draw a circle, just set the val
 
  <img src="./media-link/draw-shapes-with-css/quadrant.png" alt="quadrant" width="200" height="200">
 
- ```
+ ```css
  .quadrant{
   background-color: deepSkyBlue;
   width: 200px;
@@ -296,7 +296,7 @@ Cone can be draw with the trangle and circle technique.
 
  <img src="./media-link/draw-shapes-with-css/cone.png" alt="cone" width="200" height="200">
 
-```
+```css
 .cone {
   width: 0;
   height: 0;
