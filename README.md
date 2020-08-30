@@ -10,7 +10,7 @@ Live version: [luomingzhang.com](luomingzhang.com)
 This blog is a place for me to share some experience on developing my frontend development skills. I blog about the knowledge is essential for frontend development, e.g. [React](https://reactjs.org/), [JavaScript](www.javascript.com
 ), HTML/CSS and more topics.
 
-## 📝 To-do list
+## 📝 Post
 
 ⭕️ Javascript post: promise
 
@@ -25,6 +25,10 @@ This blog is a place for me to share some experience on developing my frontend d
 ✅ [CSS post: draw shapes with CSS](https://luomingzhang.com/blog/css-draw-different-shape-with-css)
 
 ✅ [Javascript post: Prototype, prototype chain & inheritance](https://luomingzhang.com/blog/javascript-prototype)
+
+## ✏️ To-do
+
+🔘 Table of content side bar.
 
 
 ## 🛠 Installation  & Set Up:
