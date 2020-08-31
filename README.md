@@ -16,6 +16,8 @@ This blog is a place for me to share some experience on developing my frontend d
 
 ⭕️ CSS post: web design layout
 
+⭕️ HTTP post: cross origin requests
+
 ✅ [React post: useContext + useReducer = Redux](https://luomingzhang.com/blog/usecontext-and-usereducer)
 
 ✅ [React post: event loop](https://luomingzhang.com/blog/javascript-event-loop)
