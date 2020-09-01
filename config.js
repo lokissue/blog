@@ -24,8 +24,8 @@ module.exports = {
   ],
   author: {
     name: 'Luoming Zhang',
-    photo: 'https://github.com/lokissue/luomingzhang.com/blob/master/static/Photo.JPG?raw=true',
-    photoLarge: 'https://github.com/lokissue/luomingzhang.com/blob/master/static/Photo.JPG?raw=true',
+    photo: '/photo.JPG',
+    photoLarge: '/photo.JPG',
     bio:
       'CS @ Unimelb. I blog about frontend development and more topics.',
     contacts: {
