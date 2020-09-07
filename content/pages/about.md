@@ -12,9 +12,10 @@ The raod to become a frontend developer is never straight, I decided to start my
 
 ## Some of my projects 🔆
 
-My frist [portfolio website](https://lokissue.github.io/Portfolio_website/).
-
-[Calculator](https://codesandbox.io/s/calculator-redux-flexbox-nlqfz?file=/src/App.js) (React + Redux)
+| Projects                                                                               | Description                                   |
+|----------------------------------------------------------------------------------------|-----------------------------------------------|
+| [portfolio website](https://lokissue.github.io/Portfolio_website/)                     | My first webpage built with React             |
+| [Calculator](https://codesandbox.io/s/calculator-redux-flexbox-nlqfz?file=/src/App.js) | OSX theme calculator built with React + Redux |
 
 You can see more of my projects on my [Github](https://github.com/lokissue).
 
