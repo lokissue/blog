@@ -6,7 +6,7 @@ module.exports = {
   subtitle:
     '19 CS @ Unimelb. I blog about frontend development and more topics.',
   copyright: '© Luoming Zhang 2020',
-  postsPerPage: 3,
+  postsPerPage: 4,
   googleAnalyticsId: '/',
   menu: [
     {
