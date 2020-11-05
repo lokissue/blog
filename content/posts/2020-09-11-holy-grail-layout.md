@@ -203,3 +203,7 @@ body {
 
 [Codepen](https://codepen.io/una/pen/mdVbdBy)
 
+
+You can watch the Holy Grail layout tutorial on below
+
+[![Youtube](https://previews.dropbox.com/p/thumb/AA-fEAtSaXglVPBjGmG_3Sjl8eMfQvbzS7DpYaA6fPeYl0f4CaPAYL7avRd4YkZu5N17JcQPcPfPdOrpJANejbifqRak440PI4WzDXc8pdiUZZTzPli4VDh5OtpzM99UAZHV6juBKn-s2hlBcISAWnk9XtgNaBb_13uplrxT4imjOU86uU2Dm7UTirdGl2KUtze7qu0USR39rCLEG2wkhmpdEud7XaGAHv8xP9WX9jyW_c36lJkStLOaPxR3tKmHgzLKttFfitnkWqKZ8--sRbFu2-aJ2h7qNSCWnil8YNHihzdl8zsYgptpEdnFkzmmRfdvENcIKDV7BmJfwXHToCUOzXSZTogfMSMuILAKtj-G1Q/p.png?fv_content=true&size_mode=5)](http://www.youtube.com/watch?v=lbTvAYGUxP4)
