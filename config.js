@@ -33,6 +33,7 @@ module.exports = {
       github: 'lokissue',
       codepen: 'lokissue',
       twitter: '',
+      linkedin: 'luoming-oliver-zhang-603125121'
     },
   },
 };

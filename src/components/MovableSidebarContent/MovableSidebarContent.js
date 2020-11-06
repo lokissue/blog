@@ -40,6 +40,7 @@ export const MovableSidebarContent = (props: Props) => (
                 github
                 email
                 codepen
+                linkedin
               }
             }
             copyright
