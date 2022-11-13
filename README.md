@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a999fc32-0cf6-4f0e-a52f-400cef44a989/deploy-status)](https://app.netlify.com/sites/luomingzhang/deploys) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Live version: [luomingzhang.com](luomingzhang.com) 
+Live version: [luomingzhang.com](https://luomingzhang.com/) 
 
 
 ## 🔋 Motivation
